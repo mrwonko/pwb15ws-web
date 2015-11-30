@@ -23,7 +23,7 @@
 	},
 	
 	// args is the HelloWorld program to compile.
-	"args": ["src/Main.elm", "--output", "build/frontend.js"]
+	"args": ["src/Main.elm", "--output", "build/frontend.js", "--warn"]
 }
 
 // A task runner example that defines a problemMatcher inline instead of using

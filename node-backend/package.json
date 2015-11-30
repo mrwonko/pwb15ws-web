@@ -1,20 +1,20 @@
 {
-	"name": "pwb16ws-web-backend",
-	"version": "0.0.1",
-	"description": "websocket server for the 2015 winter semester programming competition at FH Wedel",
-	"license": "MIT",
-	"files": [
-		"."
-	],
-	"bin": "app.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/mrwonko/pwb15ws-web.git"
-	},
-	"bugs": {
-		"url": "https://github.com/mrwonko/pwb15ws-web/issues"
-	},
-	"dependencies": {
-		"socket.io": "^1.3.7"
-	}
+  "name": "pwb16ws-web-backend",
+  "version": "0.0.1",
+  "description": "websocket server for the 2015 winter semester programming competition at FH Wedel",
+  "license": "MIT",
+  "files": [
+    "."
+  ],
+  "bin": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrwonko/pwb15ws-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrwonko/pwb15ws-web/issues"
+  },
+  "dependencies": {
+    "ws": "^0.8.1"
+  }
 }

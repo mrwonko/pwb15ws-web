@@ -1,7 +1,11 @@
-var socketio = require( 'socket.io' );
+var WebSocketServer = require( 'ws' ).Server,
+    wss = new WebSocketServer( { port: 1234 } );
 
-var io = socketio( 1234 );
-
-io.on( 'connection', function( socket ) {
-	console.log( 'a user connected' );
+wss.on( 'connection', function connection( ws ) {
+    ws.on( 'message' , function incoming( message ) {
+        console.log( 'received: %s', message );
+        ws.send( 'you sent: ' + message );
+    } );
+    
+    ws.send( 'something' );
 } );

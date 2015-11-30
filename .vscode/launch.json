@@ -5,10 +5,10 @@
 			"name": "Launch",
 			"type": "node",
 			"request": "launch",
-			"program": "node-backend/app.js",
+			"program": "backend/app.js",
 			"stopOnEntry": false,
 			"args": [],
-			"cwd": "node-backend",
+			"cwd": "backend",
 			"runtimeExecutable": null,
 			"runtimeArgs": [
 				"--nolazy"
